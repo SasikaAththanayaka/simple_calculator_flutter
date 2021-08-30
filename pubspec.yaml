@@ -29,11 +29,16 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   math_expressions: ^2.2.0
+  
 
 dev_dependencies:
+  flutter_launcher_icons: "^0.9.0"
   flutter_test:
     sdk: flutter
-
+flutter_icons:
+  image_path: "assets/calculator.jpg" 
+  android: true
+  ios: true
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
